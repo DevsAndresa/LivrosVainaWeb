@@ -1,0 +1,46 @@
+.footer{
+     width: 100%;
+}
+
+.parte1 {
+    width: 100%;
+    display: flex;
+    background: #005695;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 120px;
+    color: white;
+}
+.parte1 p{
+    width: 80%;
+}
+
+.logos {
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.logos img {
+    width: 35px;
+    height: 35px;
+}
+
+.logos ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.parte2 {
+    display: flex;
+    background-color: black;
+    height: 68px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: "inter", sans-serif;
+    font-size: 15px;
+    justify-content: center;
+}
