@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.LivrosDoados{
+    width: 80%;
+}
+.titulo {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+
+.imagem {
+    width: 108px; /* Define a largura da imagem */
+    
+}
+.Borda {
+    margin: 20px auto 20px 50px; /* 20px superior, 50px esquerda, 20px inferior, e auto centraliza a direita */
+    border: 3px solid #005695; /* Borda com cor e largura */
+    padding: 20px;            /* Espaçamento interno */
+    border-radius: 10px;      /* Arredondamento opcional (remova ou ajuste se não quiser) */
+    width: 245px;
+    height: 264px;
+    top: 206px;
+    left: 128px;
+    gap: 0px;
+    text-align: center;       /* Alinha o conteúdo ao centro */
+    justify-content: center;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+}
+
+.Borda p {
+    margin-top: 40px; /* Adiciona espaço entre a imagem e o texto */
+    line-height:19.36px;
+    font-family: Inter;
+    font-weight: 400;
+
+
+}
+
