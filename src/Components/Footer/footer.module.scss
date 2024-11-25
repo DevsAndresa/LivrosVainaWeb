@@ -7,13 +7,16 @@
     display: flex;
     background: #005695;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 120px;
     color: white;
+
+
+    p{
+        border: solid, red;
+            }
 }
-.parte1 p{
-    width: 80%;
-}
+
 
 .logos {
     align-items: center;
