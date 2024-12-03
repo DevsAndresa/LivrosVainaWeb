@@ -7,10 +7,18 @@
     color: #fff;
 
     nav {
-        width: 12%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        width: 15%;
+        
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none; 
+                    }
+
+        li {
+            display: inline-block;
+        }
     }
 }
 
@@ -21,10 +29,16 @@
     align-items: center;
     justify-content: center;
     color: #fff;
+    font-size: 12px;
+
+    p {
+        width: 60%;
+        text-align: center;
+    }
 }
 
-@media (max-width: 780px){
-    .contatosFooter{
+@media (max-width: 780px) {
+    .contatosFooter {
         flex-direction: column;
 
         nav {
@@ -34,10 +48,5 @@
 
     .copyright {
         font-size: 12px;
-        
-        p {
-            width: 60%;
-            text-align: center;
-        }
     }
 }
